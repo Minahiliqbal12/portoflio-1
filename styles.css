@@ -233,3 +233,52 @@ textarea {
 textarea {
   resize: none;
 }
+/* Footer */
+.footer {
+  background: #3399ff; /* main light blue color */
+  color: #fff;
+  padding: 15px 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-text p {
+  margin: 0;
+  font-size: 1.2rem;
+  text-align: left;
+}
+.footer-iconTop a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  color: #3399ff;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  transition: 0.3s;
+}
+
+.footer-iconTop a:hover {
+  background: #66b3ff;
+  color: #fff;
+}
+/* Responsive */
+@media (max-width: 768px) {
+  .home {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .about {
+    flex-direction: column;
+  }
+
+  .services-box,
+  .portfolio-box {
+    flex: 100%;
+  }
+}
