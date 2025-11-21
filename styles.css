@@ -208,3 +208,28 @@ section {
 .portfolio-box:hover .portfolio-layer {
   opacity: 1;
 }
+/* Contact */
+.contact form {
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
+}
+
+.input-box {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.input-box input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #3399ff; /* light blue border */
+  border-radius: 6px;
+  outline: none;
+}
+
+textarea {
+  resize: none;
+}
